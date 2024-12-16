@@ -1,0 +1,91 @@
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* 视口高度 */
+    align-items: center;
+}
+
+.layout_top, .layout_middle, .layout_bottom {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.layout_top {
+    flex: 1; /* 顶部盒子占据1份 */
+
+}
+
+.layout_middle {
+    flex: 2; /* 中间盒子占据2份 */
+}
+
+.layout_bottom {
+    flex: 1; /* 底部盒子占据1份 */
+}
+
+.content_slides_show {
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border: black;
+    padding-left: 40px;
+}
+
+.content_slides_show p{
+    height: 20px;
+}
+
+.content_journalism {
+    flex-direction: column;
+    flex: 2; /* 子元素平分父容器 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2d438; /* 背景色 */
+    border: black;
+}
+
+/* 底部盒子的子元素样式 */
+.content_inform, .content_education, .content_learn {
+    background-color: #e23838; /* 背景色 */
+    color: #000; /* 文本颜色 */
+    flex: 1; /* 子元素平分父容器 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_journalism {
+    background: #fff;
+}
+.journalism_title {
+    text-align: center;
+    color: #333;
+}
+.news-list {
+    list-style-type: none;
+    padding-left: 10%;
+    width: 90%;
+}
+.news-item {
+    border-radius: 5px;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-title {
+    font-size: 10px;
+    color: #333;
+    flex-grow: 1;
+    height: 25px;
+}
+.news-date {
+    font-size: 10px;
+    color: #666;
+}
