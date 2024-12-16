@@ -10,66 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3f2cc5a-ad1d-46d2-894a-8f28cfb0966a" name="更改" comment="111">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/homework01_ear_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_annotation__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_4_0__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_4_0__3_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/loginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/newsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servlet/registerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-j-8.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/index/foot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/index/head.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/index/headslideshow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/background/foot_bj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/content_slides_show/4038B30BD872566884D94B04444_9BB6063B_CE2B.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/content_slides_show/462164D6451AA60DEB25C6C47B3_4C2B7A07_9D19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/content_slides_show/773692360EAF8A4DC8FD1E8AC57_7B8F3E4E_93CF.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/content_slides_show/B108CF6BCCD6EB3D4480693D5FF_11A0082F_11EAB.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/content_slides_show/DB404913008B86B1D96D6805645_711B1998_AB90.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/index_slideshow/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/index_slideshow/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/index_slideshow/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/index_slideshow/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/logo/foodlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/logo/headlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/detailed/detailed.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/index/foot.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/index/head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/index/slideshow.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/login/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/login/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +20,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -102,46 +49,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/stadyProgramme/javaStudy/homework01&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/stadyProgramme/javaStudy/homework01/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/stadyProgramme/javaStudy/homework01/web/img/student",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "E:/stadyProgramme/javaStudy/homework01/src/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\stadyProgramme\javaStudy\homework01\web\img\student" />
       <recent name="E:\stadyProgramme\javaStudy\homework01\web\WEB-INF" />
       <recent name="E:\stadyProgramme\javaStudy\homework01\src\jdbc" />
       <recent name="E:\stadyProgramme\javaStudy\homework01\src\lib" />
       <recent name="E:\stadyProgramme\javaStudy\homework01\web\img\logo" />
-      <recent name="E:\stadyProgramme\javaStudy\homework01\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\stadyProgramme\javaStudy\homework01\web" />
+      <recent name="E:\stadyProgramme\javaStudy\homework01\web\img\student" />
       <recent name="E:\stadyProgramme\javaStudy\homework01\web\WEB-INF\lib" />
       <recent name="E:\stadyProgramme\javaStudy\homework01\web\img\content_slides_show" />
       <recent name="E:\stadyProgramme\javaStudy\homework01\web\css" />
-      <recent name="E:\stadyProgramme\javaStudy\homework01\web\css\index" />
-      <recent name="E:\stadyProgramme\javaStudy\homework01\web" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Tomcat 服务器.Tomcat 7.0.99">
     <configuration name="DBConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -167,6 +121,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="jdbc" />
       <option name="MAIN_CLASS_NAME" value="jdbc.DBConnectionTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,11 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mysql-connector-j-8.4.0.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/mysql-connector-j-8.4.0.jar" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Tomcat 7.0.99" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.99" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="21" nameIsGenerated="true">
+    <configuration name="Tomcat 7.0.99" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.99" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="web">
@@ -202,7 +154,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="d0c02766-0137-44a5-ba12-cd47c9bea2d8" />
+        <option name="BASE_DIRECTORY_NAME" value="a77eff72-a2aa-4917-9c47-4e0e0862d8ae" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -210,7 +162,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="60268" />
+        <option name="DEBUG_PORT" value="50299" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -279,23 +231,65 @@
         </option>
       </method>
     </configuration>
-    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.99" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/index.jsp" />
-      <deployment>
-        <artifact name="web">
-          <settings>
-            <option name="CONTEXT_PATH" value="/web" />
-          </settings>
-        </artifact>
-      </deployment>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.99" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="9a853925-c108-4887-89bd-b4d38c5b9afb" />
+        <option name="BASE_DIRECTORY_NAME" value="ed1c71ff-4e24-4583-b74a-71243d0899b1" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50299" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -313,26 +307,77 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="web" />
-        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="b09ae1d9-da43-40a6-8a43-0ab830249b09" />
+                    <id>b09ae1d9-da43-40a6-8a43-0ab830249b09</id>
+                  </TransportTarget>
+                </option>
+                <option name="watchedLocalPath" value="" />
+                <watched-path />
+                <name>CONTEXT_XML</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="b09ae1d9-da43-40a6-8a43-0ab830249b09" />
+                    <id>b09ae1d9-da43-40a6-8a43-0ab830249b09</id>
+                  </TransportTarget>
+                </transport-target>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <option name="stagingRemotePath" value="" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="9d91b898-e008-48c0-a8b9-127e1b4012cd" />
+                    <id>9d91b898-e008-48c0-a8b9-127e1b4012cd</id>
+                  </TransportTarget>
+                </option>
+                <staging-path />
+                <name>STAGING</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="9d91b898-e008-48c0-a8b9-127e1b4012cd" />
+                    <id>9d91b898-e008-48c0-a8b9-127e1b4012cd</id>
+                  </TransportTarget>
+                </transport-target>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50288" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JAR 应用程序.mysql-connector-j-8.4.0.jar" />
       <item itemvalue="JUnit.DBConnectionTest" />
       <item itemvalue="JUnit.DBConnectionTest.testDatabaseConnection" />
       <item itemvalue="Tomcat 服务器.Tomcat 7.0.99" />
-      <item itemvalue="Tomcat 服务器.index.jsp" />
       <item itemvalue="应用程序.DBConnection" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Tomcat 服务器.index.jsp" />
         <item itemvalue="应用程序.DBConnection" />
         <item itemvalue="JUnit.DBConnectionTest" />
         <item itemvalue="JUnit.DBConnectionTest.testDatabaseConnection" />
-        <item itemvalue="JAR 应用程序.mysql-connector-j-8.4.0.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -354,12 +399,96 @@
       <workItem from="1734272129099" duration="7236000" />
       <workItem from="1734280313555" duration="2033000" />
       <workItem from="1734323036331" duration="4319000" />
-      <workItem from="1734327388891" duration="910000" />
+      <workItem from="1734327388891" duration="6411000" />
+      <workItem from="1734337848508" duration="302000" />
+      <workItem from="1734340547178" duration="113000" />
+      <workItem from="1734340669657" duration="217000" />
+      <workItem from="1734340895370" duration="38000" />
+      <workItem from="1734341020609" duration="8042000" />
+      <workItem from="1734427257030" duration="683000" />
+      <workItem from="1734443026066" duration="6442000" />
+      <workItem from="1734480290238" duration="679000" />
+      <workItem from="1734480985111" duration="1298000" />
+      <workItem from="1734482297473" duration="1638000" />
+      <workItem from="1734483953505" duration="2069000" />
+      <workItem from="1734509316541" duration="7000" />
+      <workItem from="1734519449694" duration="6817000" />
+      <workItem from="1734532225983" duration="8193000" />
+      <workItem from="1734541051413" duration="500000" />
+      <workItem from="1734584467551" duration="4483000" />
     </task>
+    <task id="LOCAL-00001" summary="111">
+      <option name="closed" value="true" />
+      <created>1734328313469</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734328313469</updated>
+    </task>
+    <task id="LOCAL-00002" summary="111">
+      <option name="closed" value="true" />
+      <created>1734328324276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734328324276</updated>
+    </task>
+    <task id="LOCAL-00003" summary="111">
+      <option name="closed" value="true" />
+      <created>1734340876941</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734340876941</updated>
+    </task>
+    <task id="LOCAL-00004" summary="111">
+      <option name="closed" value="true" />
+      <created>1734540407145</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734540407145</updated>
+    </task>
+    <task id="LOCAL-00005" summary="111">
+      <option name="closed" value="true" />
+      <created>1734540430879</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734540430879</updated>
+    </task>
+    <task id="LOCAL-00006" summary="111">
+      <option name="closed" value="true" />
+      <created>1734604635624</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734604635624</updated>
+    </task>
+    <task id="LOCAL-00007" summary="111">
+      <option name="closed" value="true" />
+      <created>1734606725324</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734606725324</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -393,9 +522,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/servlet/registerServlet.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="22" />
+          <url>file://$PROJECT_DIR$/web/index.jsp</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

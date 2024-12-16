@@ -7,6 +7,11 @@
         <element id="directory" name="classes">
           <element id="module-output" name="homework01" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="JUnit4" module-name="homework01" />
+          <element id="library" level="project" name="mysql-connector-j-8.4.0 (4)" />
+          <element id="library" level="project" name="taglibs-standard-impl-1.2.5" />
+        </element>
       </element>
     </root>
   </artifact>

@@ -2,7 +2,7 @@
 .wrapper {
     display: flex;
     flex-direction: column;
-    height: 100vh; /* 视口高度 */
+    height: 1200px; /* 视口高度 */
     align-items: center;
 }
 
@@ -15,16 +15,22 @@
 }
 
 .layout_top {
-    flex: 1; /* 顶部盒子占据1份 */
+    height: 340px;
 
 }
 
 .layout_middle {
-    flex: 2; /* 中间盒子占据2份 */
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* 子元素垂直排列 */
+    align-items: flex-start; /* 子元素在容器的起始位置对齐 */
+    background-color: #f0f4ff; /* 背景颜色 */
+    padding: 20px;
 }
 
+
 .layout_bottom {
-    flex: 1; /* 底部盒子占据1份 */
+    flex: 2; /* 底部盒子占据1份 */
 }
 
 .content_slides_show {
@@ -41,51 +47,59 @@
 }
 
 .content_journalism {
-    flex-direction: column;
     flex: 2; /* 子元素平分父容器 */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #e2d438; /* 背景色 */
     border: black;
+    padding: 20px 20px 20px 20px;
 }
 
-/* 底部盒子的子元素样式 */
-.content_inform, .content_education, .content_learn {
-    background-color: #e23838; /* 背景色 */
+/* 部分盒子的子元素样式 */
+.content {
     color: #000; /* 文本颜色 */
     flex: 1; /* 子元素平分父容器 */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column; /* 子元素垂直排列 */
+    align-items: flex-start; /* 子元素在容器的起始位置对齐 */
+    background-color: #f0f4ff; /* 背景颜色 */
+    padding: 20px 20px 20px 20px;
 }
 
-.content_journalism {
-    background: #fff;
-}
-.journalism_title {
-    text-align: center;
-    color: #333;
-}
-.news-list {
-    list-style-type: none;
-    padding-left: 10%;
-    width: 90%;
-}
-.news-item {
-    border-radius: 5px;
-    background: #f9f9f9;
+
+
+.module_title {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between; /* 子元素两端对齐 */
+    width: 100%; /* 确保.module_title占满整个.layout_middle */
+    border-bottom: 2px solid #0F38AF; /* 下边框 */
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 40px;
 }
-.news-title {
-    font-size: 10px;
-    color: #333;
-    flex-grow: 1;
-    height: 25px;
+
+.notice-container {
+    display: flex;
+    align-items: center; /* 垂直居中 */
 }
-.news-date {
-    font-size: 10px;
-    color: #666;
+
+.notice-icon {
+    margin-right: 10px; /* 图标与文字之间的间距 */
+}
+
+.notice-title {
+    font-size: 18px; /* 字体大小 */
+    color: #0F38AF; /* 字体颜色 */
+}
+
+.more-show {
+    /* 确保.more-show在布局的右侧 */
+}
+
+.more-link {
+    font-size: 14px; /* 字体大小 */
+    color: #2e3436; /* 字体颜色 */
+    text-decoration: none; /* 去掉下划线 */
+}
+
+.more-link:hover {
+    text-decoration: underline; /* 鼠标悬停时的下划线 */
+    color: red;
 }

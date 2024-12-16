@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <title>注册界面</title>
     <link rel="stylesheet" href="../../css/login/login.css">
+    <script src="../../js/register.js" defer></script>
 </head>
 <body>
 <div class="auth-container">
-    <form action="${pageContext.request.contextPath}/registerServlet" method="post" class="auth-form">
+    <form action="${pageContext.request.contextPath}/registerServlet" method="post" class="auth-form" onsubmit="return validateForm()">
         <h2>注册</h2>
         <div class="input-group">
             <label><span>用&nbsp;&nbsp;户&nbsp;&nbsp;名</span></label>

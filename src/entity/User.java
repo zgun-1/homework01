@@ -20,7 +20,7 @@ public class User {
     }
 
     // 全参构造函数
-    public User(int userId, String username, String password, String email, String gender, Date birthday, String phoneNumber, String address, Date createdAt, Date updatedAt) {
+    public User(String username, String password, String email, String gender, Date birthday, String phoneNumber, String address) {
         this.userId = userId;
         this.username = username;
         this.password = password;

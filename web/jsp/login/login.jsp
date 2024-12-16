@@ -12,11 +12,11 @@
     <h2>登录</h2>
     <div class="input-group">
       <label><span>用户名</span></label>
-      <input type="text" id="username" name="username" required>
+      <input type="text" id="username" name="username" value="${param.username}" required>
     </div>
     <div class="input-group">
-      <label><span>密&nbsp;&nbsp;码</span></label>
-      <label for="password"></label><input type="password" id="password" name="password" required>
+      <label><span>密&nbsp;&nbsp;&nbsp;&nbsp;码</span></label>
+      <input type="password" id="password" name="password" value="${param.password}" required>
     </div>
     <button type="submit">登录</button>
     <p>没有账号？<a href="register.jsp">注册</a></p>
