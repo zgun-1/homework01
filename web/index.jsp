@@ -81,6 +81,7 @@
 			font-size: 10px;
 			white-space: nowrap; /* 防止时间换行 */
 			height: 15px;
+			margin-left: 30px;
 			font-family: "等线 Light	", sans-serif;
 			font-weight: normal; /* 设置文本不使用加粗 */
 		}
@@ -98,7 +99,7 @@
 			<div class="content_journalism">
 				<div class="module_title">
 					<div class="notice-container">
-						<img class="notice-icon" src="icon.png" alt="通知图标" width="24" height="24">
+						<img class="notice-icon" src="img/icon/img.png" alt="通知图标" width="24" height="24">
 						<div class="notice-title">学院新闻</div>
 					</div>
 					<div class="more-show"><a href="#" class="more-link">更多></a></div>
@@ -122,7 +123,7 @@
 			<div class="content">
 				<div class="module_title">
 					<div class="notice-container">
-						<img class="notice-icon" src="icon.png" alt="通知图标" width="24" height="24">
+						<img class="notice-icon" src="img/icon/tz.png" alt="通知图标" width="24" height="24">
 						<div class="notice-title">通知公告</div>
 					</div>
 					<div class="more—show"><a href="#" class="more-link">更多></a></div>
@@ -132,7 +133,7 @@
 			<div class="content">
 				<div class="module_title">
 					<div class="notice-container">
-						<img class="notice-icon" src="icon.png" alt="通知图标" width="24" height="24">
+						<img class="notice-icon" src="img/icon/ky.png" alt="通知图标" width="24" height="24">
 						<div class="notice-title">教学科研</div>
 					</div>
 					<div class="more—show"><a href="#" class="more-link">更多></a></div>
@@ -142,7 +143,7 @@
 			<div class="content">
 				<div class="module_title">
 					<div class="notice-container">
-						<img class="notice-icon" src="icon.png" alt="通知图标" width="24" height="24">
+						<img class="notice-icon" src="img/icon/xs.png" alt="通知图标" width="24" height="24">
 						<div class="notice-title">学工动态</div>
 					</div>
 					<div class="more—show"><a href="#" class="more-link">更多></a></div>

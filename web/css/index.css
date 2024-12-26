@@ -1,22 +1,21 @@
-
 .wrapper {
     display: flex;
     flex-direction: column;
     height: 1200px; /* 视口高度 */
     align-items: center;
+    width: 100%; /* 确保.wrapper占满整个视口宽度 */
 }
 
 .layout_top, .layout_middle, .layout_bottom {
-
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 80%; /* 设置为视口宽度的80% */
+    margin: 0 auto; /* 水平居中 */
 }
 
 .layout_top {
     height: 340px;
-
 }
 
 .layout_middle {
@@ -26,11 +25,14 @@
     align-items: flex-start; /* 子元素在容器的起始位置对齐 */
     background-color: #f0f4ff; /* 背景颜色 */
     padding: 20px;
+    width: 80%; /* 设置为视口宽度的80% */
+    margin: 0 auto; /* 水平居中 */
 }
 
-
 .layout_bottom {
-    flex: 2; /* 底部盒子占据1份 */
+    flex: 2; /* 底部盒子占据2份 */
+    width: 80%; /* 设置为视口宽度的80% */
+    margin: 0 auto; /* 水平居中 */
 }
 
 .content_slides_show {
@@ -38,18 +40,18 @@
     flex: 1;
     display: flex;
     align-items: center;
-    border: black;
     padding-left: 40px;
+    width: 100%; /* 设置为父容器宽度的100% */
 }
 
-.content_slides_show p{
+.content_slides_show p {
     height: 20px;
 }
 
 .content_journalism {
     flex: 2; /* 子元素平分父容器 */
-    border: black;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
+    width: 100%; /* 设置为父容器宽度的100% */
 }
 
 /* 部分盒子的子元素样式 */
@@ -60,10 +62,9 @@
     flex-direction: column; /* 子元素垂直排列 */
     align-items: flex-start; /* 子元素在容器的起始位置对齐 */
     background-color: #f0f4ff; /* 背景颜色 */
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
+    width: 100%; /* 设置为父容器宽度的100% */
 }
-
-
 
 .module_title {
     display: flex;
@@ -78,6 +79,7 @@
 .notice-container {
     display: flex;
     align-items: center; /* 垂直居中 */
+    width: 100%; /* 设置为父容器宽度的100% */
 }
 
 .notice-icon {
@@ -90,10 +92,13 @@
 }
 
 .more-show {
-    /* 确保.more-show在布局的右侧 */
+    white-space: nowrap;
+
 }
 
 .more-link {
+    white-space: nowrap;
+    width:100px;
     font-size: 14px; /* 字体大小 */
     color: #2e3436; /* 字体颜色 */
     text-decoration: none; /* 去掉下划线 */

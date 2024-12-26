@@ -76,17 +76,26 @@ public class DocumentDao {
     }
 
     public void insertDocument(Document document) throws SQLException {
-        String sql = "INSERT INTO documents (document_id, document_category, title, publish_time, publisher_id, content, author) " +
-                "VALUES (?, ?, ?, ?, ?, ?, ?)";
-        try (PreparedStatement stmt = connection.prepareStatement(sql)) {
-            stmt.setInt(1, document.getDocumentId());
-            stmt.setString(2, document.getDocumentCategory());
-            stmt.setString(3, document.getTitle());
-            stmt.setDate(4, document.getPublishTime());
-            stmt.setInt(5, document.getPublisherId());
-            stmt.setString(6, document.getContent());
-            stmt.setString(7, document.getAuthor());
-            stmt.executeUpdate();
+        String sql = "INSERT INTO documents (document_category, title, publisher_id, content, author) " +
+                "VALUES (?, ?, ?, ?, ?)";
+        try (PreparedStatement stmt = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
+            stmt.setString(1, document.getDocumentCategory());
+            stmt.setString(2, document.getTitle());
+            stmt.setInt(3, document.getPublisherId());
+            stmt.setString(4, document.getContent());
+            stmt.setString(5, document.getAuthor());
+
+            int rowsInserted = stmt.executeUpdate();
+            if (rowsInserted > 0) {
+                // 获取自动生成的键
+                ResultSet generatedKeys = stmt.getGeneratedKeys();
+                if (generatedKeys.next()) {
+                    int generatedId = generatedKeys.getInt(1);
+                    // 将生成的ID分配给document对象，如果需要的话
+                    document.setDocumentId(generatedId);
+                }
+                generatedKeys.close();
+            }
         }
     }
 

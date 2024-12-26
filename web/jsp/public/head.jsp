@@ -10,7 +10,7 @@
 	<div class="ui-menu">
 		<nav>
 			<ul>
-				<li><a href="#">首页</a></li>
+				<li><a href="${pageContext.request.contextPath}/index.jsp">首页</a></li>
 				<li>
 					<a href="#">学院概况</a>
 					<div class="dropdown-content">

@@ -35,7 +35,7 @@ public class DocumentsServlet extends HttpServlet {
             List<Document> documents;
             switch (category) {
                 case "news":
-                    documents= documentDao.getAllCategory();
+                    documents = documentDao.getAllDocuments();
                     break;
                 case "teach":
                     documents = documentDao.getDocumentsByCategory("教学科研");
@@ -50,18 +50,24 @@ public class DocumentsServlet extends HttpServlet {
             }
             // 限制结果为最新的10个文档
             documents = documents.size() > 10 ? documents.subList(0, 10) : documents;
-            String newsHtml = generateNewsHtml(documents); // 生成新闻 HTML
+            String newsHtml = generateNewsHtml(documents, category); // 生成新闻 HTML
             out.write(newsHtml); // 写入响应
         } catch (SQLException e) {
             out.println("Error: " + e.getMessage());
         }
     }
 
-    private String generateNewsHtml(List<Document> documents) {
+    private String generateNewsHtml(List<Document> documents, String category) {
         StringBuilder newsHtml = new StringBuilder();
         for (Document document : documents) {
+            String title;
+            if ("news".equals(category)) {
+                title = document.getTitle();
+            } else {
+                title = document.getTitle().length() > 15 ? document.getTitle().substring(0, 15) + "..." : document.getTitle();
+            }
             newsHtml.append("<li class='documents-item'>\n")
-                    .append("<a href='jsp/detailed/new.jsp?id=").append(document.getDocumentId()).append("' class='documents-title'>").append(document.getTitle()).append("</a>\n")
+                    .append("<a href='document.jsp?id=").append(document.getDocumentId()).append("' class='documents-title'>").append(title).append("</a>\n")
                     .append("<div class='documents-date'>[").append(document.getPublishTime()).append("]</div>\n")
                     .append("</li>\n");
         }

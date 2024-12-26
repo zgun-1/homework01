@@ -9,7 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3f2cc5a-ad1d-46d2-894a-8f28cfb0966a" name="更改" comment="111" />
+    <list default="true" id="c3f2cc5a-ad1d-46d2-894a-8f28cfb0966a" name="更改" comment="111">
+      <change afterPath="$PROJECT_DIR$/web/img/icon/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/icon/ky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/icon/tz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/icon/xs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/icon/xueshu.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/DocumentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servlet/UserServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/admin/admin_index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/admin/documentManagement.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/admin/userManagement.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/public/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/public/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/new.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/document.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Jsp File" />
         <option value="JavaScript File" />
+        <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,7 +75,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/stadyProgramme/javaStudy/homework01/web/img/student",
+    "last_opened_file_path": "E:/stadyProgramme/javaStudy/homework01/web/img/icon",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,18 +90,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\stadyProgramme\javaStudy\homework01\web\img\icon" />
       <recent name="E:\stadyProgramme\javaStudy\homework01\web\img\student" />
       <recent name="E:\stadyProgramme\javaStudy\homework01\web\WEB-INF" />
       <recent name="E:\stadyProgramme\javaStudy\homework01\src\jdbc" />
       <recent name="E:\stadyProgramme\javaStudy\homework01\src\lib" />
-      <recent name="E:\stadyProgramme\javaStudy\homework01\web\img\logo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\stadyProgramme\javaStudy\homework01\web\css\admin" />
       <recent name="E:\stadyProgramme\javaStudy\homework01\web" />
       <recent name="E:\stadyProgramme\javaStudy\homework01\web\img\student" />
       <recent name="E:\stadyProgramme\javaStudy\homework01\web\WEB-INF\lib" />
       <recent name="E:\stadyProgramme\javaStudy\homework01\web\img\content_slides_show" />
-      <recent name="E:\stadyProgramme\javaStudy\homework01\web\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -140,6 +156,9 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="documents.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8081/web/jsp/detailed/documents.jsp">
+      <method v="2" />
     </configuration>
     <configuration name="Tomcat 7.0.99" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.99" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
@@ -365,14 +384,106 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="addDocument.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.99" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/jsp/detailed/addDocument.jsp" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="web">
+          <settings>
+            <option name="CONTEXT_PATH" value="/web" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="ed1c71ff-4e24-4583-b74a-71243d0899b1" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50299" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web" />
+        </option>
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="JavaScript 调试.documents.jsp" />
       <item itemvalue="JUnit.DBConnectionTest" />
       <item itemvalue="JUnit.DBConnectionTest.testDatabaseConnection" />
       <item itemvalue="Tomcat 服务器.Tomcat 7.0.99" />
+      <item itemvalue="Tomcat 服务器.addDocument.jsp" />
       <item itemvalue="应用程序.DBConnection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.documents.jsp" />
+        <item itemvalue="Tomcat 服务器.addDocument.jsp" />
         <item itemvalue="应用程序.DBConnection" />
         <item itemvalue="JUnit.DBConnectionTest" />
         <item itemvalue="JUnit.DBConnectionTest.testDatabaseConnection" />
@@ -413,7 +524,14 @@
       <workItem from="1734519449694" duration="6817000" />
       <workItem from="1734532225983" duration="8193000" />
       <workItem from="1734541051413" duration="500000" />
-      <workItem from="1734584467551" duration="5851000" />
+      <workItem from="1734584467551" duration="5905000" />
+      <workItem from="1734789809788" duration="683000" />
+      <workItem from="1734888130931" duration="596000" />
+      <workItem from="1735126999527" duration="147000" />
+      <workItem from="1735199314797" duration="11884000" />
+      <workItem from="1735289084135" duration="114000" />
+      <workItem from="1735298788161" duration="1013000" />
+      <workItem from="1735370452303" duration="3982000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <option name="closed" value="true" />
@@ -487,7 +605,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734613279542</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="111">
+      <option name="closed" value="true" />
+      <created>1734613329276</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734613329276</updated>
+    </task>
+    <task id="LOCAL-00011" summary="111">
+      <option name="closed" value="true" />
+      <created>1735211249484</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735211249484</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,15 +667,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="111" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/index.jsp</url>
-          <line>44</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="servlet.loginServlet" memberName="config" />
